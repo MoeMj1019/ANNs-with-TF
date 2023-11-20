@@ -1,0 +1,24 @@
+{
+    "description": "Dense_1",
+    "type": "dense",
+    "parameter_count": 12730,
+    "hyper_parameter": {
+        "DENSE_LAYERS": [16],
+        "EPOCHS": 10,
+        "BATCH_SIZE": 64,
+        "LEARNING_RATE": 0.001,
+        "MOMENTUM": 0.9,
+        "USE_SCHEDULER": true,
+        "OPTIMIZER": "Adam"
+    },
+    "metrics": {
+        "train_loss": [0.6097, 0.4859, 0.433, 0.4022, 0.3818, 0.3669, 0.3553, 0.3459, 0.3382, 0.3315],
+        "train_accuracy": [0.8199, 0.8573, 0.873, 0.8822, 0.8882, 0.8928, 0.8961, 0.8988, 0.9011, 0.9031],
+        "test_loss": [0.3793, 0.3529, 0.3401, 0.3379, 0.3302, 0.3244, 0.3183, 0.314, 0.3096, 0.3061],
+        "test_accuracy": [0.8894, 0.8967, 0.9007, 0.901, 0.9026, 0.9042, 0.9063, 0.9073, 0.9087, 0.9096]
+    },
+    "accuracy_test": 0.9096,
+    "accuracy_train": 0.9031,
+    "loss_test": 0.3061,
+    "loss_train": 0.3315
+}

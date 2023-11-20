@@ -1,5 +1,6 @@
 {
     "description": "CNN_2Conv_2MaxPool_1Dense",
+    "type": "conv",
     "parameter_count": 71786,
     "hyper_parameter": {
         "DENSE_LAYERS": [],
@@ -8,7 +9,7 @@
         "LEARNING_RATE": 0.01,
         "MOMENTUM": 0.9,
         "USE_SCHEDULER": true,
-        "OPTIMIZER": "adam"
+        "OPTIMIZER": "Adam"
     },
     "metrics": {
         "train_loss": [0.2496, 0.1569, 0.1193, 0.0986, 0.0853, 0.0754, 0.0693, 0.0636, 0.0589, 0.0551],

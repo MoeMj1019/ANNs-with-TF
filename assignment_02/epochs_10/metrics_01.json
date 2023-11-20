@@ -1,5 +1,6 @@
 {
     "description": "Dense_3",
+    "type": "dense",
     "parameter_count": 111146,
     "hyper_parameter": {
         "DENSE_LAYERS": [128, 64, 32],

@@ -1,5 +1,6 @@
 {
     "description": "CNN_2Conv_2MaxPool_1Dense",
+    "type": "conv",
     "parameter_count": 71786,
     "hyper_parameter": {
         "DENSE_LAYERS": [],
